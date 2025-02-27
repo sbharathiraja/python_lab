@@ -10,6 +10,19 @@ How many people to split the bill?
 2
 Each person should pay: $70.72
 
+Python Order of Execution is 
+
+PEMDAS - Parenthesis, Exponents(**) power, 2**3 is 2 power 3 = 8, 
+Multiplication/Division, Addition/Subtraction
+
+Here Multiplication/Division are equally important, 
+but the operation in left will get executed first
+
+in the below code Multiplication gets executed first then division 
+followed by addition and subtraction
+
+print(3 * 3 + 3 / 3 - 3)
+
 """
 
 print("Welcome to the tip calculator!")
